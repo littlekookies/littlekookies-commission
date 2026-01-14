@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Littlekookies Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="gallery-page">
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <div class="brand">
+          <a href="index.html#home">
+            <img class="header-avatar" src="images/little_kookies.jpg" alt="Foto profil Littlekookies" />
+          </a>
+          <div>
+            <p class="brand-title">Andien's Page</p>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="index.html#home">Home</a>
+          <a href="index.html#commission">Commission Info</a>
+          <a href="index.html#result">Commission Result</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="result" id="gallery">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">COMMISSION RESULT</p>
+            <h2>Sample & Finished Commissions</h2>
+          </div>
+          <div class="gallery gallery-full" id="gallery-grid"></div>
+          <div class="gallery-more-wrap">
+            <button class="btn ghost gallery-load" type="button">Show More</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="footer-title">Let’s work together</p>
+          <p class="footer-text">Feel free to ask about availability or custom request.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.instagram.com/littlekookies_/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://twitter.com/littlekookies_" target="_blank" rel="noreferrer">X / Twitter</a>
+          <a href="mailto:littlekookies02@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <div class="modal-image">
+          <img class="modal-photo" src="" alt="" />
+          <span class="modal-title">Preview</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
